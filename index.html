@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pranjali Sankpal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4548317a8f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hi, I'm <br><span>Pranjali</span> Sankpal</h1>
+    </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Pranjali Sankpal, graduated from Sandip University, Nashik, Maharashtra, India. I Am A Self-Taught Developer With A Passion For Web Development And Problem Solving. I started my development journey from learning Core Java. <br><br> I am quick learner and I like to explore new things. I'm interested in working on new projects along with my skills.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br>Creating and designing frontend web apps</li>
+                        <li><span>Building Blogs Of the Web</span><br>HTML CSS JavaScript</li>
+                        <li><span>JavaScript Framework</span><br>Angular</li>
+                        <li><span>CSS Framework</span><br>Bootstrap</li>
+                        <li><span>Database</span><br>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-current</span><br>Training at SimpliLearn's Web Development Course</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018-2022</span><br>BTech in Aerospace Engineering from Sandip University Nashik, Maharashtra, India</li>
+                        <li><span>2018</span><br>Higher Secondary School-PCM group</li>
+                        <li><span>2016</span><br>Secondary School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Development</h2>
+                <p>I would like to use my skills to optimize the user experience. Using HTML, JavaScript and CSS will bring concepts to life. I would like to develop and maintain the user interface, implement design on mobile websites, create tools that improve site interaction and manage software workflow.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Angular</h2>
+                <p>With Angular, we can develop progressive web applications (PWA). PWA offers an app-like experience to the audience using modern web capabilities. As per our needs, we can deploy an app as native as well as progressive.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-bootstrap"></i>
+                <h2>Bootstrap</h2>
+                <p>Bootstrap is a powerful framework that has taken web development, especially front-end development, and community to the next level. Also, it paces up the development process by offering resources such as templates and themes, which can be customized according to the project needs. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>
+</div>
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+
+        <div class="work-list">
+            <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Netflix Clone</h3>
+                <p>Netflix clone is made by using HTML, CSS and Javascript. </p>
+                <a href="https://github.com/PRANJALI-SANKPAL"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Snake Game</h3>
+                <p>Snake game is a fun game made using frontend building blocks. This project is made by using HTML, CSS and JS. </p>
+                <a href="https://github.com/PRANJALI-SANKPAL"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Portfolio Website</h3>
+                <p>This is my portfolio website. It contains information about my skills and learnings.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sankpranjali@gmail.com</p>
+               <!-- <p><i class="fa-solid fa-square-phone"></i></p>-->
+                <div class="social-icons">
+                    <a href="https://twitter.com/pranjalisankpa2"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/pranjali-sankpal-aa1636232/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/PRANJALI-SANKPAL"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:sankpranjali@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    
+                </div>
+
+                <a href="images/Pranjali-Sankpal-Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Designed by <i class="fa-solid fa-heart"> </i> Pranjali Sankpal</p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+     function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link")
+          document.getElementById(tabname).classList.add("active-tab")
+     }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right= "0";
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+    }
+
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzrUpKfqz_Jfn7s0WGBWadwhdpxkkSJBIQa6BibSIf4lOnKruG8MpE-GCd75r_VVSdS/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
