@@ -281,6 +281,7 @@ nav ul li a:hover::after {
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
+    background-color: #262626;
     color: #fff;
     transition: background 0.5s;
 }
@@ -368,6 +369,7 @@ form .btn2 {
     color: #ff004f;
 }
 
+#more {display: none;}
 
 
 /* CSS for small screen */
